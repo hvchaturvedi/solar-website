@@ -46,27 +46,56 @@ export default function ContactSection() {
           shadow-[0_40px_120px_rgba(0,0,0,0.9)]
           animate-floatSlow"
         >
-          <form className="space-y-5">
+          <form
+            className="space-y-5"
+            onSubmit={(e) => {
+              e.preventDefault();
+
+              const name = e.target.name.value;
+              const phone = e.target.phone.value;
+              const message = e.target.message.value;
+
+              const text =
+                `Hello Krishna Solar Energy,%0A%0A` +
+                `Name: ${name}%0A` +
+                `Phone: ${phone}%0A` +
+                `Message: ${message}%0A%0A` +
+                `I am interested in solar installation.`;
+
+              window.open(`https://wa.me/919310078444?text=${text}`, "_blank");
+            }}
+          >
             <input
+              name="name"
+              required
               className="w-full p-3 rounded-xl border"
               placeholder="Your Name"
             />
+
             <input
+              name="phone"
+              required
               className="w-full p-3 rounded-xl border"
               placeholder="Phone Number"
             />
+
             <textarea
+              name="message"
               className="w-full p-3 rounded-xl border"
               rows="4"
               placeholder="Message"
             />
-            <button className="w-full bg-green-600 py-3 rounded-xl text-white font-bold hover:scale-105 transition">
+
+            <button
+              type="submit"
+              className="w-full bg-green-600 py-3 rounded-xl text-white font-bold
+    hover:scale-105 transition"
+            >
               Request a Call Back
             </button>
           </form>
         </div>
       </div>
-
     </section>
   );
 }
