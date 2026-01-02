@@ -18,18 +18,21 @@ export default function Navbar() {
     <header className="w-full bg-[#0b2c3d] text-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* LOGO */}
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-3">
           <img
             src="/logo-small.png"
-            alt="Krishna Solar Logo"
-            className="w-8 h-8 object-contain drop-shadow-[0_0_10px_rgba(34,197,94,0.8)]"
+            alt="Krishna Solar Energy"
+            className="w-12 h-12 object-contain"
           />
 
-          <span className="text-xl font-extrabold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
-            Krishna Solar
-          </span>
-
-          <span className="text-xs text-green-400 font-semibold">ENERGY</span>
+          <div className="leading-tight">
+            <div className="text-2xl font-bold tracking-wide text-green-400">
+              Krishna Solar
+            </div>
+            <div className="text-xs tracking-[0.25em] text-emerald-300">
+              ENERGY
+            </div>
+          </div>
         </Link>
 
         {/* DESKTOP MENU */}
@@ -41,7 +44,7 @@ export default function Navbar() {
               className="relative hover:text-green-400 transition"
             >
               {item.name}
-              <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-green-400 transition-all group-hover:w-full" />
+              <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-green-400 transition-all hover:w-full" />
             </a>
           ))}
         </nav>
@@ -55,7 +58,7 @@ export default function Navbar() {
           WhatsApp
         </a>
 
-        {/* MOBILE HAMBURGER */}
+        {/* MOBILE MENU BUTTON */}
         <button onClick={() => setOpen(!open)} className="md:hidden text-2xl">
           ☰
         </button>
