@@ -13,7 +13,7 @@ export default function ProjectsSection() {
     { src: "/projects/project2.jpg", alt: "Solar panel mounting structure" },
     {
       src: "/projects/project3.jpg",
-      alt: "Rooftop solar system in Ganj Basoda",
+      alt: "Rooftop solar system",
     },
     {
       src: "/projects/project4.jpg",
@@ -48,8 +48,8 @@ export default function ProjectsSection() {
         </h2>
 
         <p className="mt-3 text-center text-white/80 max-w-2xl mx-auto">
-          Real solar installations completed by Krishna Solar Energy in Ganj
-          Basoda, Vidisha, and nearby regions of Madhya Pradesh.
+          Real solar installations completed by Krishna Solar Energy across
+          India.
         </p>
 
         {/* GALLERY */}

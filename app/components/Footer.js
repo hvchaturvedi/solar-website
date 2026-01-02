@@ -9,8 +9,9 @@ export default function Footer() {
           </h3>
           <p className="mt-4 text-sm text-gray-400 leading-relaxed">
             By Krishna Trading & Co. <br />
-            Trusted solar solutions provider in Ganj Basoda, Vidisha and nearby
-            regions of Madhya Pradesh.
+            Head Office: Delhi <br />
+            Commercial solar projects across India. <br />
+            Residential subsidy available in MP & Delhi.
           </p>
         </div>
 
@@ -24,7 +25,7 @@ export default function Footer() {
               Residential Rooftop Solar
             </li>
             <li className="hover:text-green-400 transition">
-              Commercial Solar Systems
+              Commercial Solar (Hospitals, Schools, Offices, Factories)
             </li>
             <li className="hover:text-green-400 transition">
               Solar Street Lights
@@ -37,35 +38,20 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
-          <p className="text-sm text-gray-400">
-            📍 Ganj Basoda, Madhya Pradesh
-          </p>
+          <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
 
-          <p className="mt-3 text-sm">
-            📞{" "}
-            <a
-              href="tel:+919310078444"
-              className="hover:text-green-400 transition"
-            >
-              +91 9310078444
-            </a>
-          </p>
+          <p className="text-sm text-gray-400">📍 Delhi (Head Office)</p>
 
-          <p className="mt-3 text-sm">
-            💬{" "}
-            <a
-              href="https://wa.me/919310078444"
-              target="_blank"
-              className="hover:text-green-400 transition"
-            >
-              WhatsApp Chat
-            </a>
-          </p>
+          <p className="mt-3 text-sm">📞 +91 9310078444</p>
+          <p className="mt-2 text-sm">📞 +91 8178350115</p>
+          <p className="mt-2 text-sm">📞 +91 7974786396</p>
+          <p className="mt-2 text-sm">📞 +91 7000471024</p>
+
+          
         </div>
       </div>
 
-      {/* Bottom Bar */}
+      {/* Bottom */}
       <div className="border-t border-white/10 py-4 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Krishna Solar Energy. All rights reserved.
       </div>

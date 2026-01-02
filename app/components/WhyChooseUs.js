@@ -18,32 +18,32 @@ export default function WhyChooseSection() {
   const points = [
     {
       title: "Instant EMI & Easy Financing",
-      desc: "Easy EMI options available. Government subsidy helps reduce upfront cost significantly.",
+      desc: "Flexible EMI options available for residential and commercial solar projects. Government subsidy available as per applicable state policies.",
       icon: "💳",
     },
     {
-      title: "Cyclone-Proof Solar Structures",
-      desc: "Strong galvanized structures designed to withstand high wind speeds and harsh weather.",
+      title: "Strong & Weather-Resistant Structures",
+      desc: "High-quality galvanized solar mounting structures designed to withstand strong winds, rain, and harsh weather conditions.",
       icon: "🌪️",
     },
     {
-      title: "5-Year Maintenance Promise",
-      desc: "Regular system health checks, cleaning, and on-call support included.",
+      title: "5-Year Maintenance Support",
+      desc: "Dedicated maintenance support including system health checks, cleaning guidance, and technical assistance.",
       icon: "🛠️",
     },
     {
-      title: "Government Subsidy Support",
-      desc: "Complete paperwork assistance to help you get subsidy benefits smoothly.",
+      title: "Subsidy & Documentation Assistance",
+      desc: "Complete assistance with documentation and approval process. Residential subsidy available in selected states as per government norms.",
       icon: "📄",
     },
     {
-      title: "Local Service & Support",
-      desc: "Serving Ganj Basoda, Vidisha, and nearby areas with fast on-ground support.",
-      icon: "📍",
+      title: "Pan India Commercial Installations",
+      desc: "Commercial solar installations for hospitals, schools, offices, factories and institutions across India.",
+      icon: "🇮🇳",
     },
     {
-      title: "End-to-End Installation",
-      desc: "From site survey to installation and after-sales service — we handle everything.",
+      title: "End-to-End Solar Solutions",
+      desc: "From site survey and system design to installation and after-sales support — we manage everything seamlessly.",
       icon: "⚡",
     },
   ];
@@ -71,8 +71,8 @@ export default function WhyChooseSection() {
         </h2>
 
         <p className="mt-4 text-center text-white/80 max-w-2xl mx-auto">
-          Trusted solar solutions with quality installation, strong support, and
-          long-term savings.
+          Trusted solar solutions for residential and commercial projects with
+          reliable execution and nationwide reach.
         </p>
 
         <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
